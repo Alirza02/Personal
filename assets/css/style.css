@@ -5,18 +5,21 @@
 }
 header{
     width: 100%;
-    padding: 15px;
+    padding: 15px 0;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    position: fixed;
+    background-color: white;
 }
 .divContainer{
     display: flex;
     align-items: center;
     justify-content: space-around;
     width: 100%;
-
-
+}
+.logoImage:hover{
+    cursor: pointer;
 }
 nav .navList{
     display: flex;
@@ -64,3 +67,125 @@ nav ul li a:hover{
     display: block;
 }
 
+.firstSection{
+    width: 100%;
+    background-color: #F9F9FF;
+}
+.firstDiv{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+
+}
+
+.containerGilbert{
+    width: 83%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.gilbertText{
+    width: 100%;
+    height: 100px;
+    display: grid;
+    gap: 25px;
+
+}
+
+button:hover{
+    cursor: pointer;
+}
+.gilbertText h1{
+    font-size: 50px;
+    margin-bottom: 18px;
+}
+.gilbertText p{
+    color: #778BBD;
+}
+.gilbertText button{
+    width: 35%;
+    height: 45px;
+    background-color: #75A3FD;
+    color: white;
+    border: none;
+}
+.gilbertImg{
+    margin: 80px;
+}
+#secondSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.detailsContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+.detailsText{
+    display: grid;
+    width: 40%;
+    gap: 25px;
+}
+.detailsText h1{
+    font-size: 40px;
+    margin-bottom: 18px;
+}
+.detailsText p{
+    color: #778BBD;
+}
+.detailsText button{
+    width: 40%;
+    height: 45px;
+    background-color: #75A3FD;
+    color: white;
+    border: none;
+}
+.servicesContainer{
+    width: 80%;
+
+}
+#service{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.servicesText{
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.box span{
+    transition: 0.3s;
+    font-size: xx-large;
+}
+.box h4{
+    transition: 0.5s;
+}
+.inner{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+}
+.box{
+    text-align: center;
+    height: 200px;
+}
+
+.box:hover span{
+    color: aqua;
+
+}
+.box:hover h4{
+    color: aqua;
+}
+.box p{
+    color: gray;
+}
+.box h4{
+    margin: 25px 0px 20px 0px;
+}
