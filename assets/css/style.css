@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.divContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+
+
+}
+nav .navList{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    transition: .7s;
+   
+}
+nav ul li{
+    list-style-type: none;
+    font-size: 13px;
+    
+}
+nav ul li a:hover{
+    color: blue;
+    transition: .7s;
+}
+.blogItem{
+    position: relative;
+}
+
+.blogDropDown{
+    display: none;
+    position: absolute;
+}
+.blogItem:hover .blogDropDown{
+    display: block;
+}
+.pagesDropDown{
+    position: absolute;
+    display: none;
+}
+.pagesItem:hover .pagesDropDown{
+    display: block;
+}
+.levelItem{
+    display:none
+}
+.itemLevel:hover .levelItem{
+    display: block;
+}
+
